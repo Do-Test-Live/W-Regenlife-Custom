@@ -3,13 +3,112 @@
 <head>
     <meta charset="utf-8">
     <meta content="width=device-width, initial-scale=1" name="viewport">
-    <title>Basic Bootstrap Frontend</title>
+    <title>Home - Regenlife</title>
     <link href="assets/vendor/Bootstrap/css/bootstrap.min.css" rel="stylesheet"/>
     <link href="assets/vendor/FontAwesome/css/all.min.css" rel="stylesheet"/>
     <link href="assets/css/style.css" rel="stylesheet"/>
 </head>
 <body>
-<h1>Hello, world!</h1>
+<!--Menu Start-->
+<header>
+    <nav class="navbar navbar-expand-lg bg-light">
+        <div class="container-fluid">
+            <a class="navbar-brand ms-lg-5 ps-lg-5" href="#">
+                <img alt="" class="img-fluid" src="assets/images/logo.png"/>
+            </a>
+            <button aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"
+                    class="navbar-toggler"
+                    data-bs-target="#navbarSupportedContent" data-bs-toggle="collapse" type="button">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item ms-lg-5">
+                        <a class="nav-link regen-menu-link" href="#">醫美療程</a>
+                    </li>
+                    <li class="nav-item ms-lg-5">
+                        <a class="nav-link regen-menu-link" href="#">護膚產品</a>
+                    </li>
+                    <li class="nav-item ms-lg-5">
+                        <a class="nav-link regen-menu-link" href="#">旗艦中心</a>
+                    </li>
+                    <li class="nav-item ms-lg-5">
+                        <a class="nav-link regen-menu-link" href="#">聯絡我們</a>
+                    </li>
+                </ul>
+                <form class="d-flex" role="search">
+                    <button class="btn regen-nav-btn" type="submit"><i class="fa-solid fa-pencil"></i> Search</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+</header>
+<!--Menu End-->
+
+<!--Slider Start-->
+<section>
+    <div class="carousel slide" data-bs-ride="carousel" id="carouselExampleSlidesOnly">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img alt="..." class="d-block w-100" src="assets/images/slider/banner-1.jpg">
+            </div>
+        </div>
+    </div>
+</section>
+<!--Slider End-->
+
+<section>
+    <div class="container mt-5 pt-5 pb-3">
+        <h1>4 大基準 重新定義原美肌膚</h1>
+        <p>
+            原美肌膚如同鑽石，歷經時光仍綻放永恆璀璨光芒。MEDILASE以鑽石級4C肌膚評鑑基準 —
+            Contour(緊緻立體輪廓)、Collagen(膠原彈性度)、Clarity(肌膚剔透度)、Complexion(肌膚色澤與水潤度)，
+            重新定義肌膚年輕， 讓原來的自己釋放最獨特、自信的光芒，造就與眾不同。
+        </p>
+    </div>
+    <div class="regen-diamond pt-5 pb-5">
+        <div class="container">
+            <div class="row pt-5 mb-5 pb-5">
+                <div class="col-6 d-flex justify-content-center align-items-center">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">Contour</h5>
+                            <p class="card-text"> 緊緻立體輪廓</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-6 d-flex justify-content-center align-items-center">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">Contour</h5>
+                            <p class="card-text"> 緊緻立體輪廓</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row pb-5 mt-5 pt-5 mb-5">
+                <div class="col-6 d-flex justify-content-center align-items-center">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">Contour</h5>
+                            <p class="card-text"> 緊緻立體輪廓</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-6 d-flex justify-content-center align-items-center">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">Contour</h5>
+                            <p class="card-text"> 緊緻立體輪廓</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
 
 <script src="assets/vendor/Bootstrap/js/bootstrap.bundle.min.js"></script>
 <script src="assets/vendor/jQuery/jquery-3.6.4.min.js"></script>

@@ -1,0 +1,40 @@
+@font-face {
+    font-family: 'OpenSans';
+    src: url("../fonts/OpenSans.woff2");
+}
+
+.regen-menu-link{
+    color: #000000;
+    font-weight: 600;
+    font-family: "OpenSans",sans-serif;
+}
+
+.regen-nav-btn{
+    background: #eeeeee;
+    color: #042c58;
+    width: 250px;
+    text-align: center;
+    padding: 25px 30px 25px 30px;
+    border-radius: 85px 0 0 0;
+    font-size: 30px;
+    border-left: 10px solid #ccc;
+    font-family: "OpenSans",sans-serif;
+    margin-right: -11px;
+}
+
+.regen-nav-btn:hover{
+    background: #000000;
+    color: #ffffff;
+    border-left: 10px solid #ccc;
+}
+
+.navbar{
+    padding: 0;
+    margin: 0;
+}
+
+.regen-diamond{
+    width: 100%;
+    height: 100%;
+    background: url("../images/background/diamond_img.jpg") no-repeat center top;
+}
