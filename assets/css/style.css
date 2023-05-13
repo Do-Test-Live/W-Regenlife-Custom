@@ -3,10 +3,15 @@
     src: url("../fonts/OpenSans.woff2");
 }
 
+@font-face {
+    font-family: 'NotoSans';
+    src: url("../fonts/NotoSans.otf");
+}
+
 .regen-menu-link{
     color: #000000;
-    font-weight: 600;
-    font-family: "OpenSans",sans-serif;
+    font-weight: 300;
+    font-family: "NotoSans",sans-serif;
 }
 
 .regen-nav-btn{
@@ -15,11 +20,12 @@
     width: 250px;
     text-align: center;
     padding: 25px 30px 25px 30px;
-    border-radius: 85px 0 0 0;
+    border-radius: 20px 0 0 0;
     font-size: 30px;
     border-left: 10px solid #ccc;
-    font-family: "OpenSans",sans-serif;
+    font-family: "NotoSans",sans-serif;
     margin-right: -11px;
+    font-weight: bold;
 }
 
 .regen-nav-btn:hover{
@@ -42,7 +48,7 @@
 .regen-content-title{
     margin-bottom: 15px;
     letter-spacing: 6px;
-    font-family: 'OpenSans', sans-serif;
+    font-family: 'NotoSans', sans-serif;
     font-size: 48px;
     color: #f9b3b1;
     line-height: 60px;
@@ -53,7 +59,7 @@
     font-size: 18px;
     line-height: 32px;
     font-weight: 300;
-    font-family: 'OpenSans', sans-serif;
+    font-family: 'NotoSans', sans-serif;
 }
 
 .regen-content-paragraph-blue{
@@ -61,7 +67,7 @@
     font-size: 18px;
     line-height: 32px;
     font-weight: 300;
-    font-family: 'OpenSans', sans-serif;
+    font-family: 'NotoSans', sans-serif;
 }
 
 .regen-color-pink{
@@ -115,35 +121,35 @@
     color: #9ca2b0;
     font-size: 28px;
     line-height: 44px;
-    font-family: 'OpenSans',sans-serif;
+    font-family: 'NotoSans',sans-serif;
 }
 
 .regen-treatment-card-title-1{
     font-size: 28px;
-    font-weight: 900;
+    font-weight: 300;
     color: #f58ab7;
-    font-family: 'OpenSans',sans-serif;
+    font-family: 'NotoSans',sans-serif;
 }
 
 .regen-treatment-card-title-2{
     font-size: 28px;
-    font-weight: 900;
+    font-weight: 300;
     color: #fba787;
-    font-family: 'OpenSans',sans-serif;
+    font-family: 'NotoSans',sans-serif;
 }
 
 .regen-treatment-card-title-3{
     font-size: 28px;
-    font-weight: 900;
+    font-weight: 300;
     color: #4792c5;
-    font-family: 'OpenSans',sans-serif;
+    font-family: 'NotoSans',sans-serif;
 }
 
 .regen-treatment-card-title-4{
     font-size: 28px;
-    font-weight: 900;
+    font-weight: 300;
     color: #e39440;
-    font-family: 'OpenSans',sans-serif;
+    font-family: 'NotoSans',sans-serif;
 }
 
 .regen-treatment-btn{
@@ -220,30 +226,44 @@
     width: 60px;
 }
 
+.regen-card{
+    background: rgba(255, 255, 255, 0.42);
+}
+
+.regen-copyright{
+    font-family: 'NotoSans',sans-serif;
+}
+
 @media only screen and (max-width: 550px) {
     .regen-content-title{
-        font-size: 18px;
-        font-weight: 700;
-        line-height: 32px;
+        font-size: 26px;
+        font-weight: 300;
+        line-height: 25px;
+        letter-spacing: 2px;
     }
 
     .regen-content-title-number{
-        font-size: 35px;
+        font-size: 45px;
+        font-family: 'NotoSans',sans-serif;
     }
 
     .regen-content-paragraph{
+        color: #042c58;
         font-size: 13px;
-        font-weight: 500;
+        font-weight: 300;
+        line-height: 23px;
     }
 
     .regen-content-paragraph-blue{
-        font-size: 12px;
+        font-size: 13px;
         font-weight: 300;
+        line-height: 23px;
     }
 
     .regen-service-card-title{
-        font-size: 18px;
+        font-size: 15px;
         line-height: 25px;
+        letter-spacing: 2px;
     }
 
     .regen-treatment-card-1 {
@@ -268,7 +288,7 @@
 
     .regen-treatment-card-title{
         font-size: 18px;
-        line-height: 35px;
+        line-height: 25px;
     }
 
     .regen-treatment-card-title-1{
@@ -289,8 +309,7 @@
 
     .regen-treatment-btn{
         font-size: 16px;
-        padding-left: 20px;
-        padding-right: 20px;
+        padding: 0 20px;
         line-height: 36px;
     }
 
@@ -301,7 +320,7 @@
     .regen-copyright{
         font-size: 12px;
         text-align: center;
-        font-family: 'OpenSans',sans-serif;
+        font-family: 'NotoSans',sans-serif;
     }
 
     .regen-fixed-button{
@@ -309,4 +328,16 @@
         bottom: 15px;
         right: 15px;
     }
+
+    .regen-diamond {
+        background-size: contain;
+    }
+
+    .regen-service {
+        background-size: cover;
+    }
+}
+
+.social-icon{
+    font-size: 23px;
 }
