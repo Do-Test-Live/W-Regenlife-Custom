@@ -205,6 +205,21 @@
     margin-top: 0.9vw;
 }
 
+
+.regen-fixed-button{
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+}
+
+.whats-app-desktop{
+    width: 200px;
+}
+
+.whats-app-mobile{
+    width: 60px;
+}
+
 @media only screen and (max-width: 550px) {
     .regen-content-title{
         font-size: 18px;
@@ -287,5 +302,11 @@
         font-size: 12px;
         text-align: center;
         font-family: 'OpenSans',sans-serif;
+    }
+
+    .regen-fixed-button{
+        position: fixed;
+        bottom: 15px;
+        right: 15px;
     }
 }
