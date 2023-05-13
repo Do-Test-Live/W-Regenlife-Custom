@@ -54,8 +54,17 @@
     line-height: 60px;
 }
 
+.regen-content-title-2{
+    margin-bottom: 15px;
+    letter-spacing: 6px;
+    font-family: 'NotoSans', sans-serif;
+    font-size: 40px;
+    color: #f9b3b1;
+    line-height: 60px;
+}
+
 .regen-content-paragraph{
-    color: #f9c2be;
+    color: #042c58;
     font-size: 18px;
     line-height: 32px;
     font-weight: 300;
@@ -237,6 +246,12 @@
 @media only screen and (max-width: 550px) {
     .regen-content-title{
         font-size: 26px;
+        font-weight: 300;
+        line-height: 25px;
+        letter-spacing: 2px;
+    }
+    .regen-content-title-2{
+        font-size: 20px;
         font-weight: 300;
         line-height: 25px;
         letter-spacing: 2px;
