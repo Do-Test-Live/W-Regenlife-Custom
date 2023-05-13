@@ -184,6 +184,10 @@
     text-align: left;
 }
 
+.regen-content-title-number{
+    font-size: 65px;
+}
+
 .regen-banner-title{
     font-size: 4.5vw;
     line-height: 4.5vw;
@@ -199,4 +203,89 @@
     color: #b0afb0;
     text-shadow: 2px 2px 3px rgba(0,0,0,0.2), -2px -2px 2px rgb(255 255 255 / 50%), 0 0 35px #fff, 0 0 35px #fff, 0 0 35px #fff, 0 0 35px #fff, 0 0 35px #fff, 0 0 35px #fff, 0 0 35px #fff;
     margin-top: 0.9vw;
+}
+
+@media only screen and (max-width: 550px) {
+    .regen-content-title{
+        font-size: 18px;
+        font-weight: 700;
+        line-height: 32px;
+    }
+
+    .regen-content-title-number{
+        font-size: 35px;
+    }
+
+    .regen-content-paragraph{
+        font-size: 13px;
+        font-weight: 500;
+    }
+
+    .regen-content-paragraph-blue{
+        font-size: 12px;
+        font-weight: 300;
+    }
+
+    .regen-service-card-title{
+        font-size: 18px;
+        line-height: 25px;
+    }
+
+    .regen-treatment-card-1 {
+        background-size: cover;
+    }
+
+    .regen-treatment-card-2 {
+        background-size: cover;
+    }
+
+    .service-icon{
+        height: 50px;
+    }
+
+    .regen-treatment-card-3 {
+        background-size: cover;
+    }
+
+    .regen-treatment-card-4 {
+        background-size: cover;
+    }
+
+    .regen-treatment-card-title{
+        font-size: 18px;
+        line-height: 35px;
+    }
+
+    .regen-treatment-card-title-1{
+        font-size: 18px;
+    }
+
+    .regen-treatment-card-title-2{
+        font-size: 18px;
+    }
+
+    .regen-treatment-card-title-3{
+        font-size: 18px;
+    }
+
+    .regen-treatment-card-title-4{
+        font-size: 18px;
+    }
+
+    .regen-treatment-btn{
+        font-size: 16px;
+        padding-left: 20px;
+        padding-right: 20px;
+        line-height: 36px;
+    }
+
+    .regen-contact{
+        background-size: cover;
+    }
+
+    .regen-copyright{
+        font-size: 12px;
+        text-align: center;
+        font-family: 'OpenSans',sans-serif;
+    }
 }
